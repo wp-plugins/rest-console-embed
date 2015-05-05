@@ -4,7 +4,7 @@
  * Description: Shortcode for an embeddable REST API Console, based on Automattic's <a href="https://developer.wordpress.com/docs/api/console/">WordPress.com Console</a>.
  * Author: jeffstieler
  * Author URI: http://jeffstieler.com
- * Version: 0.1.0
+ * Version: 0.1.1
  * License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
@@ -41,7 +41,7 @@ class REST_Console_Embed {
 
 		$iframe_src   = add_query_arg( $console_args, $console_url );
 
-		printf(
+		return sprintf(
 			'<div class="%s" style="width: %s; height: %s;"><iframe width="100%%" height="100%%" src="%s"></iframe></div>',
 			esc_attr( $this->tag_name ),
 			esc_attr( $iframe_width ),
