@@ -6,12 +6,12 @@ Tested up to: 4.2.1
 Stable tag: 0.1.0
 License: GPLv2+
 
-Shortcode for an embeddable REST API Console, based on Automattic\'s WordPress.com Console.
+Shortcode for an embeddable REST API Console, based on Automattic's WordPress.com Console.
 
 == Description ==
 Embed a console for exploring REST APIs in your content.
 
-Based on Automattic\'s WordPress.com Console.
+Based on Automattic's WordPress.com Console.
 
 For the console to work properly, the target API will need to:
 * respond to versioned requests, specified in the URL (e.g. `/api/v1/endpoint`)
@@ -22,7 +22,7 @@ For the console to work properly, the target API will need to:
 
 == Installation ==
 1. Install REST Console Embed either via the WordPress.org plugin directory, or by uploading the files to your server.
-1. Activate the plugin through the \'Plugins\' menu in WordPress.
+1. Activate the plugin through the 'Plugins' menu in WordPress.
 1. Use the `[rest-console]` shortcode in your content.
 
 == Screenshots ==
